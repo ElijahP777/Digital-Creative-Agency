@@ -1290,7 +1290,7 @@ textarea:focus+.label__text {
 .back-image-1::before {
     content: "";
     position: absolute;
-    background-image: url(/img/clientsPhotos/client-02.png);
+    background-image: url(../img/clientsPhotos/client-02.png);
     background-size: cover;
     width: 40px;
     height: 40px;
@@ -1301,7 +1301,7 @@ textarea:focus+.label__text {
 .back-image-1::after {
     content: "";
     position: absolute;
-    background-image: url(/img/clientsPhotos/client-03.png);
+    background-image: url(../img/clientsPhotos/client-03.png);
     background-size: cover;
     width: 40px;
     height: 40px;
@@ -1320,7 +1320,7 @@ textarea:focus+.label__text {
 .back-image-2::before {
     content: "";
     position: absolute;
-    background-image: url(/img/clientsPhotos/client-06.png);
+    background-image: url(../img/clientsPhotos/client-06.png);
     background-size: cover;
     width: 40px;
     height: 40px;
@@ -1331,7 +1331,7 @@ textarea:focus+.label__text {
 .back-image-2::after {
     content: "";
     position: absolute;
-    background-image: url(/img/clientsPhotos/client-05.png);
+    background-image: url(../img/clientsPhotos/client-05.png);
     background-size: cover;
     width: 60px;
     height: 60px;
@@ -1350,7 +1350,7 @@ textarea:focus+.label__text {
 .back-image-3::before {
     content: "";
     position: absolute;
-    background-image: url(/img/clientsPhotos/client-01.png);
+    background-image: url(../img/clientsPhotos/client-01.png);
     background-size: cover;
     width: 40px;
     height: 40px;
@@ -1361,7 +1361,7 @@ textarea:focus+.label__text {
 .back-image-3::after {
     content: "";
     position: absolute;
-    background-image: url(/img/clientsPhotos/client-03.png);
+    background-image: url(../img/clientsPhotos/client-03.png);
     background-size: cover;
     width: 40px;
     height: 40px;
@@ -1380,7 +1380,7 @@ textarea:focus+.label__text {
 .back-image-4::before {
     content: "";
     position: absolute;
-    background-image: url(/img/clientsPhotos/client-06.png);
+    background-image: url(../img/clientsPhotos/client-06.png);
     background-size: cover;
     width: 40px;
     height: 40px;
@@ -1391,7 +1391,7 @@ textarea:focus+.label__text {
 .back-image-4::after {
     content: "";
     position: absolute;
-    background-image: url(/img/clientsPhotos/client-05.png);
+    background-image: url(../img/clientsPhotos/client-05.png);
     background-size: cover;
     width: 60px;
     height: 60px;
@@ -1410,7 +1410,7 @@ textarea:focus+.label__text {
 .back-image-5::before {
     content: "";
     position: absolute;
-    background-image: url(/img/clientsPhotos/client-01.png);
+    background-image: url(../img/clientsPhotos/client-01.png);
     background-size: cover;
     width: 40px;
     height: 40px;
@@ -1421,7 +1421,7 @@ textarea:focus+.label__text {
 .back-image-5::after {
     content: "";
     position: absolute;
-    background-image: url(/img/clientsPhotos/client-03.png);
+    background-image: url(../img/clientsPhotos/client-03.png);
     background-size: cover;
     width: 40px;
     height: 40px;
@@ -1440,7 +1440,7 @@ textarea:focus+.label__text {
 .back-image-6::before {
     content: "";
     position: absolute;
-    background-image: url(/img/clientsPhotos/client-06.png);
+    background-image: url(../img/clientsPhotos/client-06.png);
     background-size: cover;
     width: 40px;
     height: 40px;
@@ -1451,7 +1451,7 @@ textarea:focus+.label__text {
 .back-image-6::after {
     content: "";
     position: absolute;
-    background-image: url(/img/clientsPhotos/client-02.png);
+    background-image: url(../img/clientsPhotos/client-02.png);
     background-size: cover;
     width: 60px;
     height: 60px;
