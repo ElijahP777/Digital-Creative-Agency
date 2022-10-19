@@ -167,8 +167,7 @@ main {
     transition: all .4s ease;
 }
 
-.header__logo::before,
-.header__logo::after {
+.header__logo::before {
     content: "";
     position: absolute;
     left: 22.4px;
@@ -180,7 +179,14 @@ main {
 }
 
 .header__logo::after {
+    content: "";
+    position: absolute;
     left: 45px;
+    width: 19.8px;
+    height: 19.8px;
+    background: #394149;
+    border-radius: 100%;
+    transition: all .4s ease;
 }
 
 .point-logo:hover .header__logo {
