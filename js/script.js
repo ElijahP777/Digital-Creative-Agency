@@ -5,9 +5,6 @@ $(document).ready(function () {
     });
 });
 // menu END
-
-
-
 // CAROUSEL
 const owl = $('.owl-carousel');
 owl.owlCarousel({
@@ -37,29 +34,21 @@ owl.owlCarousel({
       },
   }
 });
-
-
 $('.slider__btn--prev').click(function () {
     owl.trigger('prev.owl.carousel');
 })
-
-
 $('.slider__btn--next').click(function () {
     owl.trigger('next.owl.carousel');
 })
-
-
 
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
 const closeModalButtons = document.querySelectorAll('[data-close-button]')
 const overlay = document.getElementById('overlay')
 
-
 openModalButtons.forEach(button => {
   button.addEventListener('click', () => {
     const modal = document.querySelector(button.dataset.modalTarget)
     openModal(modal)
-    
   })
 })
 
@@ -97,7 +86,7 @@ setInterval(function(){
   if(counter > 5){
     counter = 1; 
   }
-}, 5000,);
+}, 5000);
 
 // Scroll to top
 const toTop = document.querySelector(".to-top");
@@ -109,7 +98,6 @@ window.addEventListener("scroll", () => {
     toTop.classList.remove("active");
   }
 });
-
 
 // Preloader
 let preloader = document.querySelector('.preloader');
