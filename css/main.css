@@ -56,8 +56,6 @@ html {
     min-height: 100%;
 }
 
-
-
 :root {
     --container-width: 1209px;
     --container-padding: 15px;
@@ -671,9 +669,7 @@ textarea:focus+.label__text {
     line-height: 128%;
     color: var(--secondary-color);
 }
-
 /* ---------------------Solution-Block--------------------------------- */
-
 .solution__row {
     display: flex;
     margin-bottom: 219px;
