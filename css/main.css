@@ -297,9 +297,10 @@ a:active {
         transition: all .5s cubic-bezier(.68, -0.55, .27, 1.55);
     }
 
-    .header__burger::before,
-    .header__burger::after {
+    .header__burger::before {
         top: 0;
+    }
+    .header__burger::after {
         bottom: 0;
     }
 
