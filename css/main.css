@@ -138,7 +138,7 @@ main {
     align-items: center;
 }
 
-.header__body::before {
+/* .header__body::before {
     content: "";
     position: absolute;
     width: 718px;
@@ -149,7 +149,7 @@ main {
     filter: blur(150px);
     z-index: -1;
     pointer-events: none;
-}
+} */
 
 .point-logo {
     cursor: pointer;
@@ -256,6 +256,14 @@ a:active {
 }
 
 @media (max-width: 767px) {
+    #header-container {
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+        /* 
+        background: #ecceedbd; */
+        
+    }
     body.lock {
         overflow: hidden;
     }
@@ -356,7 +364,18 @@ a:active {
 }
 
 /* --------------------------Agency-Block------------------------------------- */
-
+.agency::before {
+    content: "";
+    position: absolute;
+    width: 718px;
+    height: 718px;
+    left: -412px;
+    top: -332px;
+    background: linear-gradient(49.08deg, rgba(65, 88, 208, 0.5) 3.31%, rgba(200, 80, 192, 0.5) 57.52%, rgba(255, 204, 112, 0.5) 91.12%);
+    filter: blur(150px);
+    z-index: -1;
+    pointer-events: none;
+}
 .agency__row {
     margin-top: 107px;
     display: flex;
