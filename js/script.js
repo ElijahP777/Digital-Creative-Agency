@@ -1,41 +1,3 @@
-// $(document).ready(function () {
-//     $('.header__burger').click(function () {
-//         $('.header__burger,.header__menu').toggleClass('active');
-//         $('body').toggleClass('lock');
-//     });
-
-//     $('.header__menu').click(function() {
-//       $('.header__burger, .header__menu').removeClass('active');
-//       $('body').removeClass('lock');
-//     });
-// });
-// $(document).ready(function() {
-//   $('.header__burger').click(function() {
-//     $('.header__burger, .header__menu').toggleClass('active');
-//     $('body').toggleClass('lock');
-//   });
-
-//   $('.header__menu .header__link').click(function(e) {
-//     e.preventDefault();
-
-//     // Удаляем класс active у всех пунктов меню
-//     $('.header__menu .header__link').removeClass('active');
-
-//     // Добавляем класс active только к текущему пункту меню
-//     $(this).addClass('active');
-
-//     // Закрываем меню
-//     $('.header__burger, .header__menu').removeClass('active');
-//     $('body').removeClass('lock');
-
-//     // Дополнительные действия при нажатии на пункт меню
-//     // Например, прокрутка к соответствующему разделу
-//     const target = $(this).attr('href');
-//     $('html, body').animate({
-//       scrollTop: $(target).offset().top
-//     }, 700);
-//   });
-// });
 $(document).ready(function() {
   $('.header__burger').click(function() {
     $('.header__burger, .header__menu').toggleClass('active');
@@ -54,7 +16,7 @@ $(document).ready(function() {
     const target = $(this).attr('href');
     $('html, body').animate({
       scrollTop: $(target).offset().top
-    }, 700);
+    }, 200);
   });
 });
 
@@ -72,14 +34,6 @@ window.addEventListener("scroll", () => {
 });
 
 // Preloader
-// let preloader = document.querySelector('.preloader');
-
-// window.addEventListener('load',  () => {
-//   preloader.classList.add('hide');
-//   setTimeout(() => {
-//     preloader.remove();
-//   }, 600);
-// });
 
 let preloader = document.querySelector('.preloader');
 
