@@ -20,7 +20,18 @@ $(document).ready(function() {
   });
 });
 // menu END
-
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        // При прокрутке вверх
+        document.getElementById("header-container").style.top = "0";
+    } else {
+        // При прокрутке вниз
+        document.getElementById("header-container").style.top = "-100px";
+    }
+    prevScrollpos = currentScrollPos;
+};
 // Scroll to top
 const toTop = document.querySelector(".to-top");
 

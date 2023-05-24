@@ -260,8 +260,9 @@ a:active {
         position: fixed;
         width: 100%;
         z-index: 10;
-        background: #e1b5e3a6;
-        
+        background: #e8c1d1bd;
+        top: 0;
+        transition: top 0.3s ease-in-out;
     }
     body.lock {
         overflow: hidden;
