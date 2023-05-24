@@ -134,7 +134,7 @@ main {
     position: relative;
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 100px;
     align-items: center;
 }
 
@@ -413,18 +413,31 @@ a:active {
 }
 
 .popup-link {
-    font-weight: 500;
+    /* font-weight: 500;
     font-size: 14px;
-    line-height: 207%;
+    line-height: 140%;
     color: #FFFFFF;
     background: #4270EC;
     border-radius: 18px;
-    padding: 19px 45px;
+    padding: 16px 36px;
+    font-family: 'Poppins', sans-serif; */
 }
+.primary-button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    background: #4270EC;
+    border-radius: 18px;
+    padding: 16px 36px;
+    font-family: 'Poppins', sans-serif;
+  }
 
 .popup-link:active {
     position: relative;
     top: 1px;
+    color: #4253ecbf;
+
 }
 
 .agency__head-picture {
@@ -516,6 +529,7 @@ a:active {
     font-size: 45px;
     color: #1e1c31;
     transition: all .3s ease;
+    background: transparent;
 }
 
 .popup__close:hover {
@@ -610,21 +624,23 @@ textarea:focus+.label__text {
 .services-rowCard {
     display: flex;
     margin: 110px 0px 241px 0px;
+    flex-wrap: wrap;
 }
 
-.card-items:not(:last-of-type) {
-    margin-right: 70px;
+.card-item:not(:last-of-type) {
+    margin-right: 55px;
 }
 
-.card-items {
+.card-item {
     display: flex;
     width: 338px;
     border-radius: 18px;
     transition: all .3s ease;
     position: relative;
+    margin: 0 54px 49px 0;
 }
 
-.card-items::before {
+.card-item::before {
     position: absolute;
     content: "";
     bottom: -10%;
@@ -637,11 +653,11 @@ textarea:focus+.label__text {
     transform: scaleX(0);
 }
 
-.card-items:hover::before {
+.card-item:hover::before {
     transform: scaleX(1);
 }
 
-.card-items:hover {
+.card-item:hover {
     transform: scale(1.1);
 }
 
@@ -694,8 +710,8 @@ textarea:focus+.label__text {
 
 .plant-image {
     margin-right: 99px;
-    width: 470px;
-    height: 500px;
+    width: 425px;
+    height: 452px;
 }
 
 .plant-image img {
@@ -737,21 +753,12 @@ textarea:focus+.label__text {
     margin: 0px 100px 53px 0px;
 }
 
-.solution-btn {
-    display: inline-block;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 107%;
-    letter-spacing: 0.02em;
-    background: #4270EC;
-    border-radius: 15px;
-    padding: 19px 37px 19px 37px;
-    color: #ffffff;
-}
 
-.solution-btn:active {
+
+.primary-button:active {
     position: relative;
     top: 1px;
+    color: #4253ecbf;
 }
 
 /* ----------------Portfolio-BLOCK----------------------------------- */
@@ -1689,6 +1696,8 @@ textarea:focus+.label__text {
     background: #ffffff;
     border-radius: 12px;
     padding: 19px 45px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 /* Footer */
@@ -2016,12 +2025,12 @@ h4 {
         padding-left: 50px;
     }
 
-    .card-items:not(:last-of-type) {
+    .card-item:not(:last-of-type) {
         margin-right: 0px;
         margin-bottom: 50px;
     }
 
-    .card-items {
+    .card-item {
         width: 80%;
     }
 
@@ -2029,6 +2038,7 @@ h4 {
         flex-direction: column-reverse;
         align-items: center;
         text-align: center;
+        margin-bottom: 100px;
     }
 
     .plant-image {
@@ -2337,11 +2347,11 @@ h4 {
         padding-left: 0;
     }
 
-    .card-items {
+    .card-item {
         width: 97%;
     }
 
-    .card-items:hover {
+    .card-item:hover {
         transform: scale(1.0);
     }
 
