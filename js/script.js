@@ -19,9 +19,8 @@ $(document).ready(function() {
     }, 200);
   });
 });
-
-
 // menu END
+
 // Scroll to top
 const toTop = document.querySelector(".to-top");
 
