@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/icons.css">
-    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut ico" href="./img/favicon_io/favicon.ico">
     <title>Creative Agency</title>
 </head>
 
@@ -19,35 +20,33 @@
     <div class="wrapper">
         <!-- ------------HEADER-SECTION ------------>
         <header class="header">
-            <div id="body" class="container">
+            <div id="header-container" class="container">
                 <div class="header__body">
                     <div class="point-logo">
-                        <a href="#" class="header__logo">
-                            <!-- LOGO -->
-                        </a>
+                        <a href="#" class="header__logo"></a>
                     </div>
-                    <div class="header__burger">
+                    <button class="header__burger">
                         <span></span>
-                    </div>
+                    </button>
                     <nav class="header__menu">
                         <ul class="header__list">
                             <li>
-                                <a href="#hid1" class="header__link active">Home</a>
+                                <a href="#home" class="header__link active">Home</a>
                             </li>
                             <li>
-                                <a href="#hid2" class="header__link">About Us</a>
+                                <a href="#about" class="header__link">About Us</a>
                             </li>
                             <li>
-                                <a href="#hid3" class="header__link">Portfolio</a>
+                                <a href="#portfolio" class="header__link">Portfolio</a>
                             </li>
                             <li>
-                                <a class="header__link" href="#hid4">Testimony</a>
+                                <a href="#clients" class="header__link">Testimony</a>
                             </li>
                             <li>
-                                <a href="#hid5" class="header__link">News</a>
+                                <a href="#news" class="header__link">News</a>
                             </li>
                             <li>
-                                <a href="#hid6" class="header__link">Contact</a>
+                                <a href="#contact" class="header__link">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -56,16 +55,16 @@
         </header>
         <main>
             <!-- ----------MAIN------------------ -->
-            <section id="hid1" class="agency">
+            <section id="home" class="agency">
                 <div class="container">
                     <div class="agency__row">
                         <div class="agency__content">
-                            <div class="first-title">Creative work, creative mind</div>
+                            <p class="first-title">Creative work, creative mind</p>
                             <h1 class="main-title">We Are Digital
                                 Creative Agency</h1>
-                            <div class="main-subtitle">Let's start this journey together. We are a team of <br>
-                                experienced professionals who love what we do.</div>
-                            <a href="#popup" class="popup-link">Get in Touch</a>
+                            <p class="main-subtitle">Let's start this journey together. We are a team of <br>
+                                experienced professionals who love what we do.</p>
+                            <button href="#popup" class="popup-link primary-button" >Get in Touch</button>
                         </div>
 
                         <div class="agency__head-picture">
@@ -76,47 +75,47 @@
                         </div>
                     </div>
                     <div class="services-rowCard">
-                        <div class="card-items">
+                        <div class="card-item">
                             <figure class="fig-icons01"><img src="./img/service-icons/design.svg" alt="design"
                                     class="logo-service"></figure>
                             <div class="card-content">
-                                <div class="title-service">Design</div>
-                                <div class="content-service">Design is the basis for our projects. Therefore, we always
-                                    put in enough effort to surpass ourselves.</div>
+                                <h2 class="title-service">Design</h2>
+                                <h3 class="content-service">Design is the basis for our projects. Therefore, we always
+                                    put in enough effort to surpass ourselves.</h3>
                             </div>
                         </div>
-                        <div class="card-items">
+                        <div class="card-item">
                             <figure class="fig-icons02"><img src="./img/service-icons/development.svg" alt="design"
                                     class="logo-service"></figure>
                             <div class="card-content">
-                                <div class="title-service">Development</div>
-                                <div class="content-service">In development, we always rely on our experience and our
-                                    specialists. Then we can be sure of our service.</div>
+                                <h2 class="title-service">Development</h2>
+                                <h3 class="content-service">In development, we always rely on our experience and our
+                                    specialists. Then we can be sure of our service.</h3>
                             </div>
                         </div>
-                        <div class="card-items">
+                        <div class="card-item">
                             <figure class="fig-icons03"><img src="./img/service-icons/q&a.svg" alt="design"
                                     class="logo-service"></figure>
                             <div class="card-content">
-                                <div class="title-service">Testing & QA</div>
-                                <div class="content-service">After the provision of our services. We always test our
-                                    product quality.</div>
+                                <h2 class="title-service">Testing & QA</h2>
+                                <h3 class="content-service">After the provision of our services. We always test our
+                                    product quality.</h3>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <!-- ----------------------SOLUTION-SECTION------------------------------- -->
-            <section id="hid2" class="solution">
+            <section id="about" class="solution">
                 <div class="container">
                     <div class="solution__row">
                         <div>
                             <figure class="plant-image">
-                                <img src="./img/plant-img.png" alt="Plant">
+                                <img src="./img/plant-img.jpg" alt="Plant">
                             </figure>
                         </div>
                         <div class="solution-content">
-                            <div class="first-title-solution">About Us</div>
+                            <p class="first-title-solution">About Us</p>
                             <h2 class="solutin-title">Design & Develop <br>
                                 For Better Solution</h2>
                             <p class="solution-subtitle">We always value our clients
@@ -125,17 +124,17 @@
                                 ready to provide you with
                                 impeccable service.Our team consists of experienced professionals who love their job.
                             </p>
-                            <a href="#" class="solution-btn">Learn More</a>
+                            <button href="#" class="primary-button">Learn More</button>
                         </div>
                     </div>
                 </div>
             </section>
             <!-- -------------------------PORTFLIO-SECTION--------------------------- -->
-            <section id="hid3" class="portfolio">
+            <section id="portfolio" class="portfolio">
                 <div class="container">
                     <div class="portfolio__row">
                         <div class="block-title">
-                            <div class="item-title">Portfolio</div>
+                            <p class="item-title">Portfolio</p>
                             <h2 class="portfolio-title">View Our Case Studies</h2>
                         </div>
                         <div class="portfolio-content">
@@ -184,9 +183,9 @@
                     </div>
                 </div>
             </section>
-            <section id="hid4" class="clients">
+            <section id="clients" class="clients">
                 <div class="container">
-                    <div class="small-title">Testimony</div>
+                    <p class="small-title">Testimony</p>
                     <h2 class="clients-title">
                         What Do Our Clients Says <br> About Us
                     </h2>
@@ -315,7 +314,7 @@
                 </div>
             </section>
             <!-- News -->
-            <section id="hid5" class="news">
+            <section id="news" class="news">
                 <div class="container">
                     <div class="small-title">Blog</div>
                     <h2 class="clients-title">
@@ -394,12 +393,12 @@
                     </button>
                 </div>
             </section>
-            <section id="hid6" class="contact">
+            <section id="contact" class="contact">
                 <div class="container">
                     <div class="color-block">
                         <div class="contact-row">
                             <h2 class="contact-title">We Like To Start Your <br> Project With Us</h2>
-                            <div class="contact-touch"><a href="#popup" class="popup-link">Get in Touch</a></div>
+                            <div class="contact-touch"><button href="#popup" class="popup-link">Get in Touch</button></div>
                         </div>
                     </div>
                 </div>
@@ -410,9 +409,7 @@
                 <div class="footer-row">
                     <div class="item-logo">
                         <div class="point-logo">
-                            <a href="#" class="header__logo">
-                                <!-- LOGO -->
-                            </a>
+                            <a href="#" class="header__logo"></a>
                         </div>
                     </div>
                     <div class="item-contact">
@@ -464,22 +461,20 @@
     <div id="popup" class="popup">
         <div class="popup__body">
             <div class="popup__content">
-                <a href="#" class="popup__close close-popup">&times;</a>
+                <button href="#" class="popup__close close-popup">&times;</button>
                 <form class="form__mail">
-
                     <label>
                         <input type="text" name="name">
                         <div class="label__text">
                             Your name
                         </div>
                     </label>
-
                     <label>
-                        <input type="tel" name="tel" id="">
+                        <input type="number" name="tel" id="" placeholder="+1..." maxlength="10">
                         <div class="label__text">
-                            Your phone
+                          Your phone
                         </div>
-                    </label>
+                      </label>
                     <label>
                         <textarea name="message"></textarea>
                         <div class="label__text">
@@ -617,7 +612,6 @@
             </p>
             <figure class="modal-news-photo"><img src="./img/news/modal-news2.jpg" alt="Students">
             </figure>
-
         </div>
     </div>
     <div id="overlay"></div>
@@ -714,7 +708,8 @@
     <!-- SLIDER -->
     <!-- Swipper -->
     <script src="./js/script.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="./js/popup.js"></script>
+    <script src="./js/slide.js"></script>
 </body>
 
 </html>
