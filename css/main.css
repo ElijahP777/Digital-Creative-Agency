@@ -136,20 +136,8 @@ main {
     justify-content: space-between;
     height: 100px;
     align-items: center;
+    padding-top: 20px;
 }
-
-/* .header__body::before {
-    content: "";
-    position: absolute;
-    width: 718px;
-    height: 718px;
-    left: -412px;
-    top: -332px;
-    background: linear-gradient(49.08deg, rgba(65, 88, 208, 0.5) 3.31%, rgba(200, 80, 192, 0.5) 57.52%, rgba(255, 204, 112, 0.5) 91.12%);
-    filter: blur(150px);
-    z-index: -1;
-    pointer-events: none;
-} */
 
 .point-logo {
     cursor: pointer;
@@ -377,7 +365,7 @@ a:active {
     pointer-events: none;
 }
 .agency__row {
-    margin-top: 67px;
+    margin-top: 76px;
     display: flex;
 }
 
@@ -613,7 +601,7 @@ textarea:focus+.label__text {
 /* -row--------Crads */
 .services-rowCard {
     display: flex;
-    margin: 110px 0px 196px 0px;
+    margin: 110px 0px 200px 0px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -732,7 +720,7 @@ textarea:focus+.label__text {
     font-size: 48px;
     line-height: 127%;
     color: var(--first-color);
-    margin: 22px 0px 41px 0px;
+    margin: 20px 0px 41px 0px;
 }
 
 .solution-subtitle {
@@ -770,7 +758,7 @@ textarea:focus+.label__text {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: var(--first-color);
-    margin-bottom: 13px;
+    margin-bottom: 8px;
 }
 
 .portfolio-title {
